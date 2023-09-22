@@ -12,6 +12,7 @@ import { Router, Route } from '@redwoodjs/router'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/inline-embed" page={InlineEmbedPage} name="inlineEmbed" />
       <Route notfound page={NotFoundPage} />
     </Router>
   )

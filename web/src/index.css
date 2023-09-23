@@ -13,3 +13,11 @@
 html, body, #redwood-app {
   height: 100%
 }
+
+span.code {
+  font-family: monospace;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+}

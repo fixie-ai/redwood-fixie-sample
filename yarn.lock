@@ -2339,9 +2339,9 @@ __metadata:
   linkType: hard
 
 "@eslint/js@npm:^8.46.0":
-  version: 8.49.0
-  resolution: "@eslint/js@npm:8.49.0"
-  checksum: 40b4255866161e16b09eae1830c8ff7379276659ee7ce039e4708bcf3c5a5fd8b95418d32c355294e6c738f23ab42f3e3a55100dffb389edd5d5233ca47c01b3
+  version: 8.50.0
+  resolution: "@eslint/js@npm:8.50.0"
+  checksum: 92cb0a823869e85f287bd172f14a6a20d7d65c3f4db886a0356a9efebfe8fe519e9ead84a5687bd18f45eca417bdcce96e3b83fe3feae8baf0f8f44d14073bae
   languageName: node
   linkType: hard
 
@@ -5586,9 +5586,9 @@ __metadata:
   linkType: hard
 
 "@types/aria-query@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "@types/aria-query@npm:5.0.1"
-  checksum: bc9e40ce37bd3a1654948778c7829bd55aea1bc5f2cd06fcf6cd650b07bb388995799e9aab6e2d93a6cf55dcba3b85c155f7ba93adefcc7c2e152fc6057061b5
+  version: 5.0.2
+  resolution: "@types/aria-query@npm:5.0.2"
+  checksum: 74579b9e3f7f5042e8a05ab103dd652e724a556a5700fab778c76c53729635b73da5d242143df1fb9447e607f904cbd81871dd2b876f0974831a794165287b20
   languageName: node
   linkType: hard
 
@@ -5751,12 +5751,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/debug@npm:4.1.8, @types/debug@npm:^4.1.7":
+"@types/debug@npm:4.1.8":
   version: 4.1.8
   resolution: "@types/debug@npm:4.1.8"
   dependencies:
     "@types/ms": "*"
   checksum: 913aea60b8c94cd0009bbdd531d8a3594ec3275ca0e8d1cbcf783417884252b3c53113f6665fd2fb0076b8ce628ee12cd083d2af107ed26c0f2e75852d8bc074
+  languageName: node
+  linkType: hard
+
+"@types/debug@npm:^4.1.7":
+  version: 4.1.9
+  resolution: "@types/debug@npm:4.1.9"
+  dependencies:
+    "@types/ms": "*"
+  checksum: 8b550c47c70cc1af9a58e5c572f2418f30bface5bf5d5afa0d938923978f40be4c55646f1ab260f6f1492ca6ab065d447de23cb3b30d7b38597c2cbf89f4cb21
   languageName: node
   linkType: hard
 
@@ -8240,16 +8249,16 @@ __metadata:
   linkType: hard
 
 "browserslist@npm:^4.0.0, browserslist@npm:^4.14.5, browserslist@npm:^4.21.10, browserslist@npm:^4.21.4, browserslist@npm:^4.21.9":
-  version: 4.21.10
-  resolution: "browserslist@npm:4.21.10"
+  version: 4.21.11
+  resolution: "browserslist@npm:4.21.11"
   dependencies:
-    caniuse-lite: ^1.0.30001517
-    electron-to-chromium: ^1.4.477
+    caniuse-lite: ^1.0.30001538
+    electron-to-chromium: ^1.4.526
     node-releases: ^2.0.13
-    update-browserslist-db: ^1.0.11
+    update-browserslist-db: ^1.0.13
   bin:
     browserslist: cli.js
-  checksum: e8c98496e5f2a5128d0e2f1f186dc0416bfc49c811e568b19c9e07a56cccc1f7f415fa4f532488e6a13dfacbe3332a9b55b152082ff125402696a11a158a0894
+  checksum: 382a7c175bb15bc4ba27443e436a3146047692bbfbcfdab15358121a2461628976023d84150e6a3a704f84306466e12db4142a08a8ed20101b162362c77a31a5
   languageName: node
   linkType: hard
 
@@ -8488,7 +8497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001517":
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001538":
   version: 1.0.30001538
   resolution: "caniuse-lite@npm:1.0.30001538"
   checksum: a272832911441c73c787ad546e802e4b20a8766db78b223d0f17a47888dcff53b032318c00eaf8ab6558303dbb8b58df31b97ca10a3760e0ba6e1590dbcbf6d6
@@ -10470,10 +10479,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.4.477":
-  version: 1.4.526
-  resolution: "electron-to-chromium@npm:1.4.526"
-  checksum: f77e955d94f1cd7396c6c80671e40b360acf299540c3c93a91484603f5f818c094526f08e11290444fc26e092c6de90604f9398a0bf84ecf421f884c4487f1df
+"electron-to-chromium@npm:^1.4.526":
+  version: 1.4.527
+  resolution: "electron-to-chromium@npm:1.4.527"
+  checksum: 216e61d92d908ffae3d09177f5072f0b40978408abef289c1b2ae6910c22b3f900701edf92c8205c6e575d506c8bb9e0dad99043997c74db086f1d88477ad21a
   languageName: node
   linkType: hard
 
@@ -11957,8 +11966,8 @@ __metadata:
   linkType: hard
 
 "fixie@npm:latest":
-  version: 1.4.0-1
-  resolution: "fixie@npm:1.4.0-1"
+  version: 1.4.0-2
+  resolution: "fixie@npm:1.4.0-2"
   dependencies:
     "@apollo/client": ^3.8.1
     apollo-upload-client: ^17.0.0
@@ -11975,9 +11984,17 @@ __metadata:
     react-firebase-hooks: ^5.1.1
     terminal-kit: ^3.0.0
     untildify: ^5.0.0
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  peerDependenciesMeta:
+    react:
+      optional: true
+    react-dom:
+      optional: true
   bin:
     fixie: ./dist/src/main.js
-  checksum: d2ffa4cf0f5178d4f979d0ef229db59ada9b807dd3895f6ab0c674312bb29701a1507cc5a3069d017bc696e75e8eeede0a193e75af41d10c4e091576bd92796f
+  checksum: 19009eea073c7ff5ed3e5952c7bdcc1cabd6c5da72fc8ab0c9dd82a6d7bd7628c34cfc39a225a67bab92754c84507af71db697c11d353e46821ca2d933c1af13
   languageName: node
   linkType: hard
 
@@ -20852,11 +20869,11 @@ __metadata:
   linkType: hard
 
 "undici@npm:^5.19.1":
-  version: 5.25.1
-  resolution: "undici@npm:5.25.1"
+  version: 5.25.2
+  resolution: "undici@npm:5.25.2"
   dependencies:
     busboy: ^1.6.0
-  checksum: d308198814464656f71dd4a4dfab4b9cbc6b571e504d7c95706a93aebc84f548de671212a3e3887350d7ba25abbeb6685e57aadd8017fc772da40092e418ca96
+  checksum: af3ce7b3665a29350389ebd85a6a8451435c0effdaae091f8799dd807919c3f353407f381c3d810f3535fecdaf7eca4a4e25b8450976d303ee054baec534906e
   languageName: node
   linkType: hard
 
@@ -21025,7 +21042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"update-browserslist-db@npm:^1.0.11":
+"update-browserslist-db@npm:^1.0.13":
   version: 1.0.13
   resolution: "update-browserslist-db@npm:1.0.13"
   dependencies:

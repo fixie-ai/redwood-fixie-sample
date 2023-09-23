@@ -1,0 +1,15 @@
+.inline-fixie-embed {
+  margin: 10px;
+  flex-grow: 1;
+  border-width: 0;
+}
+
+.page-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html, body, #redwood-app {
+  height: 100%
+}

@@ -1,4 +1,4 @@
-import { ConversationTurn } from 'fixie'
+import { Conversation } from 'fixie'
 import { IsomorphicFixieClient } from 'fixie/web'
 
 import { MetaTags } from '@redwoodjs/web'
@@ -27,8 +27,8 @@ const LowLevelApiPage = () => {
       }
       const jsonlStream = new TextDecoder('utf-8').decode(value)
       const mostRecentJson = jsonlStream.trim().split('\n').at(-1)
-      const mostRecentValue = JSON.parse(mostRecentJson) as ConversationTurn
-      const textContent = mostRecentValue.messages
+      const mostRecentValue = JSON.parse(mostRecentJson) as Conversation
+      const textContent = mostRecentValue.turns.at(-1).messages
         .map((message) => (message.kind === 'text' ? message.content : ''))
         .join('')
       setAgentReply(textContent)

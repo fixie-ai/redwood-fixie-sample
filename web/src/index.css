@@ -31,5 +31,5 @@ span.code {
 }
 
 .message-content {
-  white-space: pre;
+  white-space: pre-wrap;
 }

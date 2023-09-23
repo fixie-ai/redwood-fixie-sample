@@ -3,6 +3,10 @@ import { useSidekick } from 'fixie/web'
 import { MetaTags } from '@redwoodjs/web'
 
 const UseSidekickPage = () => {
+  /**
+   * Here's a simple example of how to use the hook. Once you're comfortable with it, there are many more inputs and
+   * outputs available to build a rich UI.
+   */
   const { turns, sendMessage, input, setInput } = useSidekick({
     agentId: 'nick/sidekick-help-scout',
   })

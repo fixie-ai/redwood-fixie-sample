@@ -1,6 +1,8 @@
-import { MetaTags } from '@redwoodjs/web'
-import { ControlledFloatingFixieEmbed } from 'fixie/web'
 import { useState } from 'react'
+
+import { ControlledFloatingFixieEmbed } from 'fixie/web'
+
+import { MetaTags } from '@redwoodjs/web'
 
 const ControlledFloatingEmbedPage = () => {
   const [visible, setVisible] = useState(false)
@@ -25,11 +27,21 @@ const ControlledFloatingEmbedPage = () => {
       />
 
       <h1>ControlledFloatingEmbedPage</h1>
-      <p>This page embeds the off-the-shelf Fixie Agent UI. Open and close it via the <span className='code'>visible</span> prop.</p>
+      <p>
+        This page embeds the off-the-shelf Fixie Agent UI. Open and close it via
+        the <span className="code">visible</span> prop.
+      </p>
 
-      <button onClick={() => setVisible(prev => !prev)}>{visible ? 'Hide' : 'Show'}</button>
+      <button onClick={() => setVisible((prev) => !prev)}>
+        {visible ? 'Hide' : 'Show'}
+      </button>
 
-      <ControlledFloatingFixieEmbed visible={visible} debug agentId='nick/sidekick-help-scout' style={style} />
+      <ControlledFloatingFixieEmbed
+        visible={visible}
+        debug
+        agentId="nick/sidekick-help-scout"
+        style={style}
+      />
     </>
   )
 }

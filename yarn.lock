@@ -12441,9 +12441,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fixie@npm:1.4.0-9":
-  version: 1.4.0-9
-  resolution: "fixie@npm:1.4.0-9"
+"fixie@npm:1.4.0-11":
+  version: 1.4.0-11
+  resolution: "fixie@npm:1.4.0-11"
   dependencies:
     "@apollo/client": ^3.8.1
     ai-jsx: 0.18.1
@@ -12470,8 +12470,8 @@ __metadata:
     react-dom:
       optional: true
   bin:
-    fixie: ./dist/src/main.js
-  checksum: 1c5a45b55c9df5a23e598cbe9fb04e7e4b481a8936c186c11f513d1e8e9db939ae17bc1eac96d93ef0d42f9fb9f34862e3a0fd9d5b4444df2d2b1adb0ed2a186
+    fixie: ./src/main.js
+  checksum: 3ed661f7529a99fea1046bf06ab53542af1d38bcde420f0f85a95659b87353342dc7bc6be7e7c52b7a937401932e24d45bf25af22b6f3c7d7c51d781e788c918
   languageName: node
   linkType: hard
 
@@ -23714,7 +23714,7 @@ __metadata:
     "@redwoodjs/router": 6.3.1
     "@redwoodjs/vite": 6.3.1
     "@redwoodjs/web": 6.3.1
-    fixie: 1.4.0-9
+    fixie: 1.4.0-11
     prop-types: 15.8.1
     react: 18.2.0
     react-dom: 18.2.0

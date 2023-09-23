@@ -17,7 +17,7 @@ const ControlledFloatingEmbedPage = () => {
     height: '80%',
     overflow: 'auto',
     backgroundColor: 'rgba(0,0,0,0.4)',
-  }
+  } as const
 
   return (
     <>

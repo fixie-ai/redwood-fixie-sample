@@ -21,3 +21,15 @@ span.code {
   padding: 0 0.2em;
   border-radius: 0.2em;
 }
+
+.conversation .turn {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  margin-left: .5rem;
+}
+
+.message-content {
+  white-space: pre;
+}

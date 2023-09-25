@@ -1,0 +1,35 @@
+.inline-fixie-embed {
+  margin: 10px;
+  flex-grow: 1;
+  border-width: 0;
+}
+
+.page-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+html, body, #redwood-app {
+  height: 100%
+}
+
+span.code {
+  font-family: monospace;
+  font-size: 0.9em;
+  background-color: #f0f0f0;
+  padding: 0 0.2em;
+  border-radius: 0.2em;
+}
+
+.conversation .turn {
+  margin-bottom: 1rem;
+}
+
+.submit-button {
+  margin-left: .5rem;
+}
+
+.message-content {
+  white-space: pre-wrap;
+}

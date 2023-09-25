@@ -1,13 +1,13 @@
-import { useSidekick } from 'fixie/web'
+import { useFixie } from 'fixie/web'
 
 import { MetaTags } from '@redwoodjs/web'
 
-const UseSidekickPage = () => {
+const UseFixiePage = () => {
   /**
    * Here's a simple example of how to use the hook. Once you're comfortable with it, there are many more inputs and
    * outputs available to build a rich UI.
    */
-  const { turns, sendMessage, input, setInput } = useSidekick({
+  const { turns, sendMessage, input, setInput } = useFixie({
     agentId: 'nick/sidekick-help-scout',
   })
 
@@ -19,12 +19,12 @@ const UseSidekickPage = () => {
 
   return (
     <>
-      <MetaTags title="UseSidekick" description="UseSidekick page" />
+      <MetaTags title="UseFixie" description="UseFixie page" />
 
-      <h1>UseSidekickPage</h1>
+      <h1>UseFixiePage</h1>
       <p>
-        This page uses the <span className="code">useSidekick</span> hook to
-        access a conversation with a Fixie Sidekick.
+        This page uses the <span className="code">useFixie</span> hook to access
+        a conversation with a Fixie Sidekick.
       </p>
 
       <div className="conversation">
@@ -57,4 +57,4 @@ const UseSidekickPage = () => {
   )
 }
 
-export default UseSidekickPage
+export default UseFixiePage

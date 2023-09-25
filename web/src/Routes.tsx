@@ -13,7 +13,7 @@ const Routes = () => {
   return (
     <Router>
       <Route path="/low-level-api" page={LowLevelApiPage} name="lowLevelApi" />
-      <Route path="/use-sidekick" page={UseFixiePage} name="useFixie" />
+      <Route path="/use-fixie" page={UseFixiePage} name="useFixie" />
       <Route path="/controlled-floating-embed" page={ControlledFloatingEmbedPage} name="controlledFloatingEmbed" />
       <Route path="/floating-embed" page={FloatingEmbedPage} name="floatingEmbed" />
       <Route path="/inline-embed" page={InlineEmbedPage} name="inlineEmbed" />
